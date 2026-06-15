@@ -67,7 +67,7 @@
 &kp Q      &kp W      &kp E         &kp R           &kp T                                    &kp Y        &kp U                &kp I          &kp O              &kp P
 &kp A      &kp S      &kp D         &kp F           &kp G                                    &kp H        &kp J                &kp K          &kp L              &kp SEMI
 &kp Z      &kp X      &kp C         &kp V           &kp B                                    &kp N        &kp M                &kp COMMA      &kp DOT            &kp FSLH
-&kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &mt LCMD LANG2  &lt 1 SPACE      &kp TAB  &kp BACKSPACE  &lt 1 ENTER  &mt RCMD LANGUAGE_2  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mt RIGHT_SHIFT MINUS
+&kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &mt LCMD LANG1  &lt 1 SPACE      &kp TAB  &kp BACKSPACE  &lt 1 ENTER  &mt RCMD LANGUAGE_2  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mt RIGHT_SHIFT MINUS
            &none      &kp LG(TAB)   &kp LG(W)       &kp LG(LS(TAB))  &kp UP   &kp UP         &kp LEFT     &kp DOWN             &kp RIGHT      &mo 2
 &mkp LCLK  &mkp RCLK  &mkp MCLK                                                                                                &mkp LCLK      &mkp RCLK          &mkp MCLK
 &mkp MB4   &mkp MB5   &kp LG(TAB)   &kp LG(D)       &kp LCTRL                                &mkp MB4     &mkp MB5             &kp LG(TAB)    &kp LG(D)          &kp LCTRL
