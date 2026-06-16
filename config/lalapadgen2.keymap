@@ -64,13 +64,13 @@
         DEFAULT_LAYER {
             display-name = "Default";
             bindings = <
-&kp Q      &kp W      &kp E         &kp R        &kp T                                    &kp Y           &kp U         &kp I          &kp O              &kp P
-&kp A      &kp S      &kp D         &kp F        &kp G                                    &kp H           &kp J         &kp K          &kp L              &kp SEMI
-&kp Z      &kp X      &kp C         &kp V        &kp B                                    &kp N           &kp M         &kp COMMA      &kp DOT            &kp FSLH
-&kp LSHFT  &kp LCTRL  &kp LEFT_ALT  &lt 1 SPACE  &mt LCMD LANG2   &kp TAB  &kp BACKSPACE  &mt RCMD LANG1  &lt 1 RETURN  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mt RIGHT_SHIFT MINUS
-           &none      &kp LG(TAB)   &kp LG(W)    &kp LG(LS(TAB))  &kp UP   &kp UP         &kp LEFT        &kp DOWN      &kp RIGHT      &mo 0
-&mkp LCLK  &mkp RCLK  &mkp MCLK                                                                                         &mkp LCLK      &mkp RCLK          &mkp MCLK
-&mkp MB4   &mkp MB5   &kp LG(TAB)   &kp LG(D)    &kp LCTRL                                &mkp MB4        &mkp MB5      &kp LG(TAB)    &kp LG(D)          &kp LCTRL
+&kp Q                 &kp W                  &kp E                &kp R                   &kp T                                                        &kp Y                 &kp U                  &kp I             &kp O           &kp P
+&kp A                 &kp S                  &kp D                &kp F                   &kp G                                                        &kp H                 &kp J                  &kp K             &kp L           &kp SEMI
+&kp Z                 &kp X                  &kp C                &kp V                   &kp B                                                        &kp N                 &kp M                  &kp COMMA         &kp DOT         &kp FSLH
+&kp LSHFT             &kp LCTRL              &kp LEFT_ALT         &lt 1 SPACE             &mt LCMD LANG2          &kp TAB               &kp BACKSPACE  &mt RCMD LANG1        &lt 1 RETURN           &mo 2             &kp RIGHT_ALT   &mt RIGHT_SHIFT MINUS
+                      &kp LG(W)              &kp LG(RIGHT_ARROW)  &kp LG(LA(DOWN_ARROW))  &kp LG(LS(LEFT_ARROW))  &kp LG(LA(UP_ARROW))  &kp UP         &kp LEFT              &kp DOWN               &kp RIGHT         &kp LS(LG(N5))
+&mkp LCLK             &mkp RCLK              &mkp MCLK                                                                                                                                              &mkp LCLK         &mkp RCLK       &mkp MCLK
+&kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)     &kp LG(F3)              &kp LCTRL                                                    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)  &kp LG(F3)      &kp LCTRL
             >;
         };
 
