@@ -161,7 +161,7 @@
         input-processors = <&trackpad_key_behaviors_R>,
                            <&zip_xy_scaler 3 6>,
                            <&zip_scroll_scaler 1 100>,
-                           <&zip_scroll_transform (INPUT_TRANSFORM_Y_INVERT | INPUT_TRANSFORM_X_INVERT)>,
+                           <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
         lowspeedmode {
