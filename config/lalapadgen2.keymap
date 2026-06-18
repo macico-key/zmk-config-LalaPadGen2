@@ -70,7 +70,7 @@
 &kp LSHFT             &kp LCTRL              &kp LEFT_ALT         &mt LCMD LANG2          &lt 1 SPACE             &kp TAB               &kp BACKSPACE  &lt 1 ENTER           &mt RCMD LANG1         &mo 2             &kp RIGHT_ALT   &mt RIGHT_SHIFT MINUS
                       &kp LG(W)              &kp LG(RIGHT_ARROW)  &kp LG(LA(DOWN_ARROW))  &kp LG(LS(LEFT_ARROW))  &kp LG(LA(UP_ARROW))  &kp UP         &kp LEFT              &kp DOWN               &kp RIGHT         &kp LS(LG(N5))
 &mkp LCLK             &mkp RCLK              &mkp MCLK                                                                                                                                              &mkp LCLK         &mkp RCLK       &mkp MCLK
-&kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)     &kp LG(F3)              &kp LCTRL                                                    &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)  &kp LG(F3)      &kp LCTRL
+&kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)     &kp LG(F3)              &kp LCMD                                                     &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)  &kp LC(UP_ARROW)  &kp LG(F3)      &kp RCMD
             >;
         };
 
