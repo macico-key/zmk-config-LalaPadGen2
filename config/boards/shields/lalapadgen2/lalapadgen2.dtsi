@@ -160,7 +160,7 @@
         device = <&trackpad_split_R>;
         input-processors = <&trackpad_key_behaviors_R>,
                            <&zip_xy_scaler 3 7>,
-                           <&zip_scroll_scaler 1 160>,
+                           <&zip_scroll_scaler 1 40>,
                            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
                            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                            <&zip_dynamic_xy_scaler>,
@@ -168,8 +168,8 @@
         lowspeedmode {
             layers = <1>;
             input-processors =  <&trackpad_key_behaviors_R>,
-                                <&zip_xy_scaler 2 9>,
-                                <&zip_scroll_scaler 1 240>,
+                                <&zip_xy_scaler 3 7>,
+                                <&zip_scroll_scaler 1 40>,
                                 <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
                                 <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                                 <&zip_dynamic_xy_scaler>,
@@ -181,8 +181,8 @@
         status = "disabled";
         device = <&trackpad_split_L>;
         input-processors = <&trackpad_key_behaviors_L>,
-                           <&zip_xy_scaler 3 7>,
-                           <&zip_scroll_scaler 1 160>,
+                           <&zip_xy_scaler 2 9>,
+                           <&zip_scroll_scaler 1 80>,
                            <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
                            <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                            <&zip_dynamic_xy_scaler>,
@@ -191,7 +191,7 @@
             layers = <1>;
             input-processors =  <&trackpad_key_behaviors_L>,
                                 <&zip_xy_scaler 2 9>,
-                                <&zip_scroll_scaler 1 240>,
+                                <&zip_scroll_scaler 1 80>,
                                 <&zip_scroll_transform INPUT_TRANSFORM_Y_INVERT>,
                                 <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                                 <&zip_dynamic_xy_scaler>,
