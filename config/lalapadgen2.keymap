@@ -65,7 +65,7 @@
 &kp LSHFT        &kp LEFT_WIN  &kp LEFT_ALT      &mt LEFT_CONTROL LANG2  &lt 1 SPACE      &kp TAB               &kp BACKSPACE  &lt 1 ENTER      &mt RIGHT_CONTROL LANG1  &mo 2             &kp RIGHT_WIN  &mt RIGHT_SHIFT MINUS
                  &kp LC(W)     &kp LC(TAB)       &kp LG(LA(DOWN_ARROW))  &kp LS(LC(TAB))  &kp LG(LA(UP_ARROW))  &kp UP         &kp LEFT         &kp DOWN                 &kp RIGHT         &kp LS(LG(S))
 &mkp LCLK        &mkp RCLK     &mkp MCLK                                                                                                                                 &mkp LCLK         &mkp RCLK      &mkp MCLK
-&kp LC(LS(TAB))  &kp LC(TAB)   &kp LC(UP_ARROW)  &kp RC(W)               &kp LCMD                                              &kp LC(LS(TAB))  &kp LC(TAB)              &kp LC(UP_ARROW)  &kp RC(W)      &kp RCMD
+&kp LC(LS(TAB))  &kp LC(TAB)   &kp LC(UP_ARROW)  &kp LC(W)               &kp LCMD                                              &kp LC(LS(TAB))  &kp LC(TAB)              &kp LC(UP_ARROW)  &kp LC(W)      &kp RCMD
             >;
         };
 
