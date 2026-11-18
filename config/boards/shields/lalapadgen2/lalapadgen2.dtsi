@@ -171,9 +171,9 @@ trackpad_listener_R: trackpad_listener_R {
     reverselowspeedmode {
         layers = <3>;
         input-processors = <&trackpad_key_behaviors_R>,
-                           <&zip_xy_scaler SPEED_LOW>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_REVERSE>,
+                           <&zip_xy_scaler 2 9>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
@@ -182,9 +182,9 @@ trackpad_listener_R: trackpad_listener_R {
     reversemode {
         layers = <2>;
         input-processors = <&trackpad_key_behaviors_R>,
-                           <&zip_xy_scaler SPEED_NORMAL>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_REVERSE>,
+                           <&zip_xy_scaler 3 7>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
@@ -193,9 +193,9 @@ trackpad_listener_R: trackpad_listener_R {
     lowspeedmode {
         layers = <1>;
         input-processors = <&trackpad_key_behaviors_R>,
-                           <&zip_xy_scaler SPEED_LOW>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_NORMAL>,
+                           <&zip_xy_scaler 2 9>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
@@ -219,9 +219,9 @@ trackpad_listener_L: trackpad_listener_L {
     reverselowspeedmode {
         layers = <3>;
         input-processors = <&trackpad_key_behaviors_L>,
-                           <&zip_xy_scaler SPEED_LOW>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_REVERSE>,
+                           <&zip_xy_scaler 2 9>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
@@ -230,9 +230,9 @@ trackpad_listener_L: trackpad_listener_L {
     reversemode {
         layers = <2>;
         input-processors = <&trackpad_key_behaviors_L>,
-                           <&zip_xy_scaler SPEED_NORMAL>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_REVERSE>,
+                           <&zip_xy_scaler 3 7>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
@@ -241,9 +241,9 @@ trackpad_listener_L: trackpad_listener_L {
     lowspeedmode {
         layers = <1>;
         input-processors = <&trackpad_key_behaviors_L>,
-                           <&zip_xy_scaler SPEED_LOW>,
-                           <&zip_scroll_scaler SPEED_SCROLL>,
-                           <&zip_scroll_transform SCROLL_NORMAL>,
+                           <&zip_xy_scaler 2 9>,
+                           <&zip_scroll_scaler 1 20>,
+                           <&zip_scroll_transform INPUT_TRANSFORM_X_INVERT>,
                            <&zip_dynamic_xy_scaler>,
                            <&zip_dynamic_scroll_scaler>;
     };
